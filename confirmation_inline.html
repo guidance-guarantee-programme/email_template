@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email template</title>
+    <style type="text/css">
+        /* Based on The MailChimp Reset INLINE: Yes. */
+        /* Client-specific Styles */
+        #outlook a {padding:0;} /* Force Outlook to provide a "view in browser" menu link. */
+        body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;}
+        /* Prevent Webkit and Windows Mobile platforms from changing default font sizes.*/
+        .ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+        /* Forces Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */
+        /* End reset */
+
+        #govuk-email-content {
+            max-width: 580px;
+        }
+
+        #govuk-email-header {
+            width: 100%;
+            background-color: #0B0C0C;
+        }
+
+        #pensionwise-email-header {
+            width: 100%;
+            background-color: #f4f5f5;
+        }
+
+        td {
+            padding:0 0 0 15px;
+        }
+
+        #govuk-masthead tr td,
+        #pensionwise-masthead tr td{
+            padding:0;
+        }
+
+        table.separator {
+            width: 100%;
+            height: 1px;
+            line-height:1px;
+            font-size:1px;
+        }
+
+        table.separator td {
+            background:none;
+            border-top:solid 1px #bfc1c3;
+            border-width:1px 0 0 0;
+            height:1px;
+            line-height:1px;
+            font-size:1px;
+            width:100%;
+        }
+
+        h1, h2, h3, h4, h5, h6, p {
+            color: #0B0C0C;
+            font-family: Helvetica, Arial, sans-serif;
+            margin: 15px 0;
+        }
+
+        ul, ol  {
+            color: #0B0C0C;
+            font-family: Helvetica, Arial, sans-serif;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 700;
+        }
+
+        p, ul, ol, h3, h4, h5, h6 {
+            font-size: 16px;
+            line-height: 1.315789474;
+        }
+
+        h1 {
+            font-size: 20px;
+            line-height: 1.111111111;
+            padding: 15px 0;
+        }
+
+        .emphasize {
+            font-size: 24px;
+        }
+
+        hr {
+            border:none;
+        }
+
+        /* Some sensible defaults for images
+        Bring inline: Yes. */
+        img {outline:none; text-decoration:none; display:block; -ms-interpolation-mode: bicubic;}
+        a img {border:none;}
+        .image_fix {display:block;}
+
+        /* Yahoo paragraph fix
+        Bring inline: Yes. */
+        p {margin: 15px 0;}
+
+        /* Hotmail govuk-email-header color reset
+        Bring inline: Yes. */
+        h1, h2, h3, h4, h5, h6 {color: #0B0C0C !important;}
+
+        h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .actions li a {color: #005EA5 !important;}
+
+        h1 a:hover, h2 a:hover,  h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .actions li a:hover {
+            color: #2E8ACA !important; /* Preferably not the same color as the normal govuk-email-header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+        }
+
+        h1 a:active, h2 a:active,  h3 a:active, h4 a:active, h5 a:active, h6 a:active, .actions li a:active {
+            color: #2E8ACA !important; /* Preferably not the same color as the normal govuk-email-header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+        }
+
+        h1 a:visited, h2 a:visited,  h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited, .actions li a:visited {
+            color: #005EA5 !important; /* Preferably not the same color as the normal govuk-email-header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+        }
+
+        /* Outlook 07, 10 Padding issue fix
+        Bring inline: No.*/
+        table td {border-collapse: collapse;}
+
+        /* Remove spacing around Outlook 07, 10 tables
+        Bring inline: Yes */
+        table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+
+        /* Styling your links has become much simpler with the new Yahoo.  In fact, it falls in line with the main credo of styling in email and make sure to bring your styles inline.  Your link colors will be uniform across clients when brought inline.
+        Bring inline: Yes. */
+        a {color: #005EA5;}
+
+
+        /***************************************************
+        ****************************************************
+        MOBILE TARGETING
+        ****************************************************
+        ***************************************************/
+        @media only screen and (max-device-width: 480px) {
+            /* Part one of controlling phone number linking for mobile. */
+            a[href^="tel"], a[href^="sms"] {
+                text-decoration: none;
+                color: blue; /* or whatever your want */
+                pointer-events: none;
+                cursor: default;
+            }
+
+            .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+                text-decoration: default;
+                color: orange !important;
+                pointer-events: auto;
+                cursor: default;
+            }
+
+        }
+
+        /* More Specific Targeting */
+
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+            /* You guessed it, ipad (tablets, smaller screens, etc) */
+            /* repeating for the ipad */
+            a[href^="tel"], a[href^="sms"] {
+                text-decoration: none;
+                color: blue; /* or whatever your want */
+                pointer-events: none;
+                cursor: default;
+            }
+
+            .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+                text-decoration: default;
+                color: orange !important;
+                pointer-events: auto;
+                cursor: default;
+            }
+        }
+
+    </style>
+</head>
+<body style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;padding: 0;width: 100% !important;">
+
+<table id="govuk-email-header" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 100%;background-color: #0B0C0C;">
+    <tr>
+        <td style="padding: 0 0 0 15px;border-collapse: collapse;">
+
+            <table id="govuk-masthead" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tr>
+                    <td style="padding: 0;border-collapse: collapse;">
+                        <img src="http://alistairduggin.co.uk/images/pension-wise-email/govuk_logotype_email.png" alt="GOV.UK" style="outline: none;text-decoration: none;display: block;-ms-interpolation-mode: bicubic;">
+                    </td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+</table>
+<table id="pensionwise-email-header" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 100%;background-color: #f4f5f5;">
+    <tr>
+        <td style="padding: 0 0 0 15px;border-collapse: collapse;">
+
+            <table id="pensionwise-masthead" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tr>
+                    <td style="padding: 0;border-collapse: collapse;">
+                        <img src="http://alistairduggin.co.uk/images/pension-wise-email/pensionwise_logotype_email.png" alt="Pension Wise" style="outline: none;text-decoration: none;display: block;-ms-interpolation-mode: bicubic;">
+                    </td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+</table>
+
+<table id="govuk-email-content" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;max-width: 580px;">
+    <tr>
+        <td style="padding: 0 0 0 15px;border-collapse: collapse;">
+            <h1 style="color: #0B0C0C !important;font-family: Helvetica, Arial, sans-serif;margin: 15px 0;font-weight: 700;font-size: 20px;line-height: 1.111111111;padding: 15px 0;">Booking confirmation</h1>
+
+            <p style="color: #0B0C0C;font-family: Helvetica, Arial, sans-serif;margin: 15px 0;font-size: 16px;line-height: 1.315789474;">Hi Liz</p>
+
+            <p style="color: #0B0C0C;font-family: Helvetica, Arial, sans-serif;margin: 15px 0;font-size: 16px;line-height: 1.315789474;">Thank you for booking a telephone guidance appointment with Pension Wise.
+                Your appointment is confirmed for:</p>
+
+            <p style="color: #0B0C0C;font-family: Helvetica, Arial, sans-serif;margin: 15px 0;font-size: 16px;line-height: 1.315789474;">Date<br>
+                <strong class="emphasize" style="font-size: 24px;">Monday 19 Jan 2015</strong></p>
+
+
+
+            <p style="color: #0B0C0C;font-family: Helvetica, Arial, sans-serif;margin: 15px 0;font-size: 16px;line-height: 1.315789474;">Time<br>
+                <strong class="emphasize" style="font-size: 24px;">9 - 9:15am</strong></p>
+
+            <p style="color: #0B0C0C;font-family: Helvetica, Arial, sans-serif;margin: 15px 0;font-size: 16px;line-height: 1.315789474;">Duration<br>
+                <strong class="emphasize" style="font-size: 24px;">45 minutes</strong></p>
+
+            <p style="color: #0B0C0C;font-family: Helvetica, Arial, sans-serif;margin: 15px 0;font-size: 16px;line-height: 1.315789474;">Your contact number<br>
+                <strong class="emphasize" style="font-size: 24px;">07813 795 362</strong></p>
+
+            <p style="color: #0B0C0C;font-family: Helvetica, Arial, sans-serif;margin: 15px 0;font-size: 16px;line-height: 1.315789474;">Memorable word<br>
+                <strong class="emphasize" style="font-size: 24px;">Triage</strong></p>
+
+            <p style="color: #0B0C0C;font-family: Helvetica, Arial, sans-serif;margin: 15px 0;font-size: 16px;line-height: 1.315789474;">A trained guidance specialist will call you on the above number. They will verify their identity
+                by confirming your memorable word.</p>
+
+            <p style="color: #0B0C0C;font-family: Helvetica, Arial, sans-serif;margin: 15px 0;font-size: 16px;line-height: 1.315789474;"><strong>If you don't answer the call, you'll need to book another appointment.</strong></p>
+
+            <p style="color: #0B0C0C;font-family: Helvetica, Arial, sans-serif;margin: 15px 0;font-size: 16px;line-height: 1.315789474;">To cancel or reschedule your appointment, or if any of the information above is wrong, please
+                call 0300 000 0000. Do not reply to this email.</p>
+
+
+            <table class="separator" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 100%;height: 1px;line-height: 1px;font-size: 1px;">
+                <tr>
+                    <td style="padding: 0 0 0 15px;border-collapse: collapse;background: none;border-top: solid 1px #bfc1c3;border-width: 1px 0 0 0;height: 1px;line-height: 1px;font-size: 1px;width: 100%;"><!-- --></td>
+                </tr>
+            </table>
+
+            <h1 style="color: #0B0C0C !important;font-family: Helvetica, Arial, sans-serif;margin: 15px 0;font-weight: 700;font-size: 20px;line-height: 1.111111111;padding: 15px 0;">Preparing for your appointment</h1>
+
+            <p style="color: #0B0C0C;font-family: Helvetica, Arial, sans-serif;margin: 15px 0;font-size: 16px;line-height: 1.315789474;">To make your appointment as useful as possible, it would be helpful to have the following information with
+                you when you have your appointment:</p>
+
+            <ul style="color: #0B0C0C;font-family: Helvetica, Arial, sans-serif;margin-top: 15px;margin-bottom: 15px;font-size: 16px;line-height: 1.315789474;">
+                <li>
+                    <p style="color: #0B0C0C;font-family: Helvetica, Arial, sans-serif;margin: 15px 0;font-size: 16px;line-height: 1.315789474;">the value of your pension pots - check your pension statement or you can ask
+                        your provider (you  may find it helpful to bring the paperwork)</p>
+                </li>
+                <li>
+                    <p style="color: #0B0C0C;font-family: Helvetica, Arial, sans-serif;margin: 15px 0;font-size: 16px;line-height: 1.315789474;">details of your other income, eg property, salary, any savings and investments</p></li>
+                <li>
+                    <p style="color: #0B0C0C;font-family: Helvetica, Arial, sans-serif;margin: 15px 0;font-size: 16px;line-height: 1.315789474;">an estimate of your <a href="https://www.gov.uk/calculate-state-pension" style="color: #005EA5;">State Pension amount</a></p>
+                </li>
+                <li>
+                    <p style="color: #0B0C0C;font-family: Helvetica, Arial, sans-serif;margin: 15px 0;font-size: 16px;line-height: 1.315789474;">details of any debts you may have</p>
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
