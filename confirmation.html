@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Booking confirmation</title>
+    <title>Pension Wise Appointment Booking Confirmation</title>
     <style type="text/css">
         /* Based on The MailChimp Reset INLINE: Yes. */
         /* Client-specific Styles */
@@ -15,27 +15,20 @@
         /* Forces Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */
         /* End reset */
 
-        #govuk-email-content {
-            max-width: 580px;
-        }
-
-        #govuk-email-header {
+        .outer-container {
             width: 100%;
-            background-color: #0B0C0C;
-        }
-
-        #pensionwise-email-header {
-            width: 100%;
-            background-color: #f4f5f5;
         }
 
         td {
             padding:0 0 0 15px;
         }
 
-        #govuk-masthead tr td,
-        #pensionwise-masthead tr td{
+        .inner-container tr td{
             padding:0;
+        }
+
+        .email-content {
+            max-width: 580px;
         }
 
         table.separator {
@@ -179,41 +172,24 @@
 </head>
 <body>
 
-<table id="govuk-email-header">
+<table class="outer-container">
     <tr>
         <td>
-
-            <table id="govuk-masthead">
+            <table class="inner-container">
                 <tr>
                     <td>
-                        <img src="http://alistairduggin.co.uk/images/pension-wise-email/govuk_logotype_email.png" alt="GOV.UK" />
+                        <img src="https://www.pensionwise.gov.uk/email/pw.gif" width="183" height="100" alt="Pension Wise" />
                     </td>
                 </tr>
             </table>
-
-        </td>
-    </tr>
-</table>
-<table id="pensionwise-email-header">
-    <tr>
-        <td>
-
-            <table id="pensionwise-masthead">
-                <tr>
-                    <td>
-                        <img src="http://alistairduggin.co.uk/images/pension-wise-email/pensionwise_logotype_email.png" alt="Pension Wise" />
-                    </td>
-                </tr>
-            </table>
-
         </td>
     </tr>
 </table>
 
-<table id="govuk-email-content">
+<table class="email-content">
     <tr>
         <td>
-            <h1>Booking confirmation</h1>
+            <h1>Appointment booking confirmation</h1>
 
             <p>Hi Liz</p>
 
@@ -223,10 +199,8 @@
             <p>Date<br />
                 <strong class="emphasize">Monday 19 Jan 2015</strong></p>
 
-
-
-            <p>Time<br />
-                <strong class="emphasize">9 - 9:15am</strong></p>
+            <p>Start time<br />
+                <strong class="emphasize">9:00am - 9:15am</strong></p>
 
             <p>Duration<br />
                 <strong class="emphasize">45 minutes</strong></p>
@@ -237,13 +211,16 @@
             <p>Memorable word<br />
                 <strong class="emphasize">Triage</strong></p>
 
+            <p>Reference number<br />
+                <strong class="emphasize">0123456789</strong></p>
+
             <p>A trained guidance specialist will call you on the above number. They will verify their identity
                 by confirming your memorable word.</p>
 
             <p><strong>If you don't answer the call, you'll need to book another appointment.</strong></p>
 
             <p>To cancel or reschedule your appointment, or if any of the information above is wrong, please
-                call 0300 000 0000. Do not reply to this email.</p>
+                call 0300 0677001. Do not reply to this email.</p>
 
 
             <table class="separator">
@@ -260,7 +237,7 @@
             <ul>
                 <li>
                     <p>the value of your pension pots - check your pension statement or you can ask
-                    your provider (you  may find it helpful to bring the paperwork)</p>
+                    your provider</p>
                 </li>
                 <li>
                     <p>details of your other income, eg property, salary, any savings and investments</p></li>
@@ -271,6 +248,21 @@
                     <p>details of any debts you may have</p>
                 </li>
             </ul>
+        </td>
+    </tr>
+</table>
+
+<br /><br /><br />
+<table class="outer-container">
+    <tr>
+        <td>
+            <table class="inner-container">
+                <tr>
+                    <td>
+                        <img src="https://www.pensionwise.gov.uk/email/hmg.gif" width="166" height="100" alt="HM Government" />
+                    </td>
+                </tr>
+            </table>
         </td>
     </tr>
 </table>
