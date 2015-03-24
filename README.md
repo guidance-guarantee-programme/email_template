@@ -22,4 +22,4 @@ $ git clone https://github.com/guidance-guarantee-programme/email_templates.git
 Please see the [contributing guidelines](/CONTRIBUTING.md).
 
 [git]: http://git-scm.com
-[pension wise]: https://www.gov.uk/pensionwise
+[pension wise]: https://www.pensionwise.gov.uk
