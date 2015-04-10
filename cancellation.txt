@@ -1,26 +1,26 @@
 Pension Wise
 
 
-Appointment booking cancellation
---------------------------------
+Appointment cancelled
+---------------------
 
-Hi Liz
+Dear Liz,
 
-Your telephone guidance appointment with Pension Wise has been cancelled.
+You asked us to cancel your telephone guidance appointment.
+The following appointment has now been cancelled:
 
 Date:
 Monday 19 Jan 2015
 
 Start time:
-9:00am - 9:15am
+9:00am
 
 Reference number:
 0123456789
 
 
-If you think this email has been sent in error, please call: 0300 0677001
+If you didn't ask us to cancel your appointment or to book a new appointment, call 0300 3301 001.
 
-Do not reply to this email.
+Don't reply to this email.
 
-Visit the Pension Wise website if you would like to find out more about
-your pension options.
+Go to pensionwise.gov.uk for more information about your pension options.
