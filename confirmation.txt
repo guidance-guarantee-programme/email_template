@@ -1,10 +1,10 @@
 Pension Wise
 
 
-Appointment booking confirmation
---------------------------------
+Appointment confirmation
+------------------------
 
-Hi Liz
+Dear Liz,
 
 Thank you for booking a telephone guidance appointment with Pension Wise. Your appointment is confirmed for:
 
@@ -14,34 +14,38 @@ Monday 19 Jan 2015
 Start time:
 9:00am
 
-Duration:
+Appointment lasts:
 45 minutes
 
 Your contact number:
 07813 795 362
 
-Memorable word:
+Your memorable word:
 Triage
 
-Reference number:
+Your reference number:
 0123456789
 
 
-A trained guidance specialist will call you on the above number. They will verify their identity by confirming your memorable word.
+A trained guidance specialist will call you on the number above. They'll repeat
+the memorable word to you so you know you’re speaking to Pension Wise.
 
 If you don't answer the call, you'll need to book another appointment.
 
-To cancel or reschedule your appointment, or if any of the information above is wrong, please call:
-0300 0677001
-
-Do not reply to this email.
+To cancel or change your appointment, or if any of the information above isn't correct,
+call 0300 3301 001 or reply to this email.
 
 
 Preparing for your appointment
 ------------------------------
 
-To make your time with us as useful as possible, it would be helpful to have considered the following information ahead of your appointment:
-* the value of your pension pot(s) - check your pension statement or you can ask your provider
-* start thinking about how you want to use your money in retirement, whether you just need money from time to time or a regular income
-* consider your financial circumstances as a whole, such as your salary or other sources of income – this will help inform the context of your pension decision
-* a forecast of your State Pension is helpful - contact the Future Pension Centre on 0845 3000 168 to request this
+To make your appointment as useful as possible, it would be helpful to know the following information:
+* the value of your pension pot(s) - check your pension paperwork or ask your provider
+* an estimate of your State Pension - call the Future Pension Centre on 0845 600 4274 for a State Pension statement
+* any special arrangements attached to your pension pot, eg a guaranteed annuity rate or a guaranteed pot value at a certain time - ask your provider
+
+Think about your financial circumstances in general and plans for retirement, eg:
+* sources of income like salary, benefits, savings, investments
+* debts and repayments you might have
+* when you want to stop working
+* if you want a fixed or flexible income in retirement
