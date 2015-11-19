@@ -4,7 +4,7 @@ Pension Wise
 ** Guiders Wiki Pilot
 ------------------------------------------------------------
 
-Hi *|FNAME|*,
+Hi %recipient_fname%,
 
 Thanks for taking part in this pilot of the guiders wiki. This pilot is about having a central place to store factsheets and find out about new ones when they come out.
 
