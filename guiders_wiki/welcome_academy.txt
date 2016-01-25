@@ -1,0 +1,57 @@
+Pension Wise
+
+
+** Guiders Learning Platform Pilot
+------------------------------------------------------------
+
+Hi %recipient_fname%,
+
+Some time ago we ran the first part of the Guiders Wiki pilot as a way to communicate and to have a central place to store documents used by guiders.
+
+This second part is about an online learning platform to help you stay up-to-date with changes to the service.
+
+One of the recent changes has been to extend the service to 50-55 year olds. You’ve already received information on how to provide guidance to this age group, but during this pilot we’d like to try out a different way of showing you how to work with this group of people.
+
+For this pilot we’ve developed a small online course on “appointments for 50-55 year olds” and would appreciate your feedback.
+
+
+** Log in
+------------------------------------------------------------
+
+To log in to the Pension Wise learning platform please use the following
+
+Username: %recipient_email%
+Password: %recipient.password%
+
+
+** Familiarise yourself with the platform
+------------------------------------------------------------
+
+The platform we’ll be using during this pilot is based on edX (https://www.edx.org) - the open source learning platform made by MIT and Harvard University.
+
+Before trying out the “appointments for 50-55 year olds” course we suggest you have a look at the demo course first (http://guiders.academy.pensionwise.gov.uk/courses/edX/DemoX/Demo_Course/about). It shows how this platform works through examples.
+
+Please bear in mind that the demo course is provided by edX and some of the examples are from courses on physics, biology and engineering at Harvard so don’t worry if they seem complicated. They are intended to demonstrate the platforms’ functionality and help you familiarise yourself with its interface.
+
+When you feel comfortable using the platform please complete the course on “appointments for 50-55 year olds”. The course is not graded so don’t worry about any final marks.
+
+
+** Help and feedback
+------------------------------------------------------------
+
+If you need help using the platform and to send us your feedback, please use the “Help” tab at the left of every page. You can use the “Help” tab to report problems, ask questions or make suggestions during the pilot.
+
+We'd particularly appreciate your feedback on:
+
+* the use of the online learning platform
+* the use of videos and quizzes
+* whether you think you could deliver appointments to 50-55 year olds after completing this course
+* other ideas that would make this platform useful for you
+
+------------------------------------------------------------
+
+The pilot will run until 18/1 and it takes approximately 30 minutes to familiarise yourself with the platform and complete the “appointments for 50-55 year olds” course.
+
+Log in now (http://guiders.academy.pensionwise.gov.uk)
+
+HM Government
